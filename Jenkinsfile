@@ -5,6 +5,9 @@ def tools = new Tools()
 
 pipeline{
     agent any
+    options {
+          skipDefaultCheckout true
+        }
     stages{
         stage("build"){
             steps{
