@@ -1,4 +1,4 @@
-@Library(mylib@main) _
+@Library("mylib@main") _
 import org.devops.Tools
 
 def tools = new Tools()
